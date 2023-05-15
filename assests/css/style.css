@@ -1,0 +1,255 @@
+:root{
+    /*-===========bg color==========--*/
+    --bg-primary-color:#008489;
+    --bg-secondary-color:#3F3B51;
+    /*--==========text color==========---*/
+    --text-primary-color:#0AEDED;
+    --text-white:#fff;
+    --text-secondary-color:#008489;
+    --text-third-color:#3F3B51;
+    --text-fourth-color:#f75523;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.navbar-dark .navbar-toggler {
+        color: none !important;
+        border-color: none !important;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border:none !important;
+        border-radius: 0.25rem;
+        transition: none !important;
+    }
+
+.navbar{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+
+}
+.navbar-collapse ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 18px;
+}
+.navbar-collapse ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+
+    }
+    .navbar-collapse ul li:hover::after{
+        width: 100%;
+    }
+
+.carousel-item img{
+  width: 100%;
+  height: 90vh;  
+}
+.carousel-caption h3{
+color: var(--text-fourth-color);
+
+}
+/*-=============hotel-room section start==============*/
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+     border: none !important;
+     border-radius: none !important;
+}
+.card img{
+    border: 2px solid  #3F3B51;
+   
+}
+.btn-primary {
+    color: #fff;
+    background-color: var(--bs-orange) !important;
+    border-color: var(--bs-orange) !important;
+    
+}
+ .fa{
+  color: #a38604da;
+}
+/*-=============hotel-room section end===============*/
+
+/*-=============tempal section Start===============*/
+.dpimg{
+    overflow: hidden;
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../image/shreenath-tempal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item img{
+    height: 40px;
+    width: 40px;
+    
+
+}
+/*-=============tempal-room section end===============*/
+
+/*-=============facilities section start===============*/
+.bg-primary {
+    background-color: var(--bs-teal)!important;
+}
+.responsive{
+    margin: 10px 0;
+    position: relative;
+    padding: 20px 10px;
+    z-index: 1;
+}
+.responsive img{
+    width: 100%;
+    height: 50%;
+    
+}
+.slick-prev{
+    display: none !important;
+}
+.slick-next{
+    display: none !important;
+}
+/*-=============facilities section end===============*/
+
+/*-=============location section start===============*/
+.map iframe{
+  width: 100%;
+}
+  
+/*-=============location  section end===============*/
+/*-=============footer section Start===============*/
+.footer-section{
+       
+}
+.footer-area{
+    padding: 0 60px 0 60px;
+}
+.social-links{
+  font-size: 28px;
+  color: #df0505;
+  text-decoration: none;
+}
+.social-links a{
+    color: transparent !important;
+     color: none !important;
+    
+
+}
+/*-============= footer section end===============*/
+
+@media ( min-width:500px) {
+    .text-center {
+        text-align: center!important;
+        margin-bottom: 30px !important;
+    }
+    
+element.style {
+  z-index: 3;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  border-width: 0px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  touch-action: pan-x pan-y;
+  margin-top: 225px !important;
+}
+}
+/*--===========About-section start=============---*/
+.about-img{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 29, 0.7),rgba(4, 9, 29, 0.7)),url(../image/krishna.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-img h1 {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.35);
+    margin-top: 240px;
+}
+@media ( max-width: 800px ){
+    .about-img h1 {
+        padding: 20px;
+        background-color: rgba(0,0,0,0.35);
+        margin-top: 205px !important;
+    }
+
+}
+
+/*--===========About-section end=============---*/
+/*--===========Facilities-section start=============---*/
+.ser-logo{
+    text-align: center;
+    border: 1px solid #3F3B51;
+    font-size: 50px;
+    color: darkorange;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+
+}
+hr:not([size]) {
+    height: 2px !important;
+}
+/*--===========Facilities-section end=============---*/
+
+/*--===========Attraction-section start=============---*/
+.attra-card img{
+   border: none; 
+}
+.bg-warning {
+    background-color: #f7e4f6!important;
+}
+@media(max-width:800px){
+    .about-img h1 {
+        padding: 20px;
+        background-color: rgba(0,0,0,0.35);
+        margin-top: 205px !important;
+    }
+    
+}
+/*--===========Attraction-section end=============---*/
+
+/*--===========Contact-section Start=============---*/
+.cont-logo{
+    color: #f3a42d;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: var(--bs-white);
+    opacity: 1;
+}
+.bg-white {
+    background-color: #ed8d6f!important;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: var(--bs-orange);
+    border-color: var(--bs-orange);
+}
+.hotel-map iframe{
+    width: 100%;
+}
+
+/*--===========Contact-section end=============---*/
